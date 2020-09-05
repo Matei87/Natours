@@ -1,6 +1,6 @@
 # Natours
 
-Natours is an online platform where you can browse your favorite destination to visit and explore.
+Natours is a travel platform where you can browse your favorite destination to visit and explore.
 
 # Built with
 
