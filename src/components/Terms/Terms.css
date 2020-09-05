@@ -1,0 +1,48 @@
+#terms {
+    margin: calc(3rem + 67.2px) auto 3rem; 
+    height: 100%; width: 100%;  
+}
+#terms .container .row h3 {
+    font-weight: 600; margin: 0 auto 1rem;
+    text-transform: uppercase; color: #444;
+}
+#terms .container .row h5 {
+    text-transform: uppercase; color: #444;
+    font-weight: 600; font-size: 1.375rem;
+    margin: 2rem 0 1rem;
+}
+#terms .container .row p {
+    font-weight: 500; margin-bottom: 1.875rem;
+    color: #333; font-size: 1.1rem;
+}
+
+
+/* Extra small devices */
+@media (max-width: 575.98px) {
+    #terms {
+        padding: 0 1rem;
+    }
+    #terms .container .row {
+        display: block;
+    } 
+    #terms .container .row h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #terms .container .row h5 {
+       font-size: 1.3rem; justify-content: left;
+    }
+    #terms .container .row p {
+        font-size: 1rem;
+    }
+}
+
+ /* Small devices */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    #terms .container .row {
+        display: block;
+    }
+    #terms .container .row h3 {
+        text-align: center;
+    }
+}

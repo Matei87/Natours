@@ -1,0 +1,50 @@
+#signup {
+    height: 100%; width: 100%;
+    margin: calc(3rem + 67.2px) auto 3rem;
+}
+#signup .head {
+    border-bottom: 1px inset #7dd56f;
+    background: rgba(190, 190, 190, .35);
+}
+#signup .head p {
+    margin: 0; padding: 1rem 2rem;
+    color: #444; font-weight: 600; font-size: 1.5rem;
+}
+#signup form { 
+    border: 1px outset #7dd56f;
+    box-shadow: 0 0 5px 5px #7dd56f,
+    0 0 20px 20px rgba(0, 0, 0, .185);
+    background: #fff;
+}
+#signup form .form-group {
+    padding: 1rem 2rem; margin: 0;
+}
+#signup form .form-group label {
+    font-weight: 600;
+}
+#signup form .form-group input {
+    font-weight: 500; border-radius: 0;
+    padding: 1.75rem .75rem;
+    background: rgba(190, 190, 190, .35);
+}
+#signup form .form-group input::placeholder {
+    font-weight: 500; color: #7dd56f;
+}
+#signup form .form-group button {
+    background: rgba(190, 190, 190, .35);
+    border: 1px outset #7dd56f;
+    color: #7dd56f; font-weight: 600; border-radius: 0;
+    padding: .75rem; transition: .6s ease;
+}
+#signup form .form-group button:hover {
+    background: #7dd56f; color: #f1f1f1;
+    border: 1px inset #7dd56f;
+}
+#signup form .form-control:focus {
+    border-color: #28b487;
+    box-shadow: inset 0 1px 1px #28b487, 0 0 8px #55c57a;
+    background: #fff;
+}
+#signup .col-md-6 {
+    margin: 0 auto;
+}

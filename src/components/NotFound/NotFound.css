@@ -1,0 +1,17 @@
+.notFound {
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    margin: calc(3rem + 67.2px) 0 3rem;
+    background: linear-gradient(to right, #7dd56f, #28b487);
+    color: transparent; background-clip: text;
+}
+.notFound p {
+    margin: 0; font-size: 1.25rem;
+}
+
+
+/* Extra small devices */
+@media (max-width: 575.98px) { 
+    .notFound h1 {
+        font-size: 2.2rem;
+    }
+}
