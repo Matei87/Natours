@@ -73,13 +73,13 @@ class Navbar extends React.Component {
 
                         <div className="log-sign">
                             <Link
-                                to="login"
+                                to="/login"
                                 smooth={true}
                                 duration={500}>
                                 Log In
                             </Link>
                             <Link
-                                to="signup"
+                                to="/signup"
                                 smooth={true}
                                 duration={500}>
                                 Sign Up
