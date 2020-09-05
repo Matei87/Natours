@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Natours/static/css/main.57b354c3.chunk.css",
-    "main.js": "/Natours/static/js/main.a542a53e.chunk.js",
-    "main.js.map": "/Natours/static/js/main.a542a53e.chunk.js.map",
+    "main.js": "/Natours/static/js/main.f94b65e8.chunk.js",
+    "main.js.map": "/Natours/static/js/main.f94b65e8.chunk.js.map",
     "runtime-main.js": "/Natours/static/js/runtime-main.7c6a0ac6.js",
     "runtime-main.js.map": "/Natours/static/js/runtime-main.7c6a0ac6.js.map",
     "static/css/2.903f44f7.chunk.css": "/Natours/static/css/2.903f44f7.chunk.css",
     "static/js/2.7f2f5d2a.chunk.js": "/Natours/static/js/2.7f2f5d2a.chunk.js",
     "static/js/2.7f2f5d2a.chunk.js.map": "/Natours/static/js/2.7f2f5d2a.chunk.js.map",
     "index.html": "/Natours/index.html",
-    "precache-manifest.d9cb51f53b650f29b88a2dd48d970897.js": "/Natours/precache-manifest.d9cb51f53b650f29b88a2dd48d970897.js",
+    "precache-manifest.6c2d0ad36b409456118074376a258a3e.js": "/Natours/precache-manifest.6c2d0ad36b409456118074376a258a3e.js",
     "service-worker.js": "/Natours/service-worker.js",
     "static/css/2.903f44f7.chunk.css.map": "/Natours/static/css/2.903f44f7.chunk.css.map",
     "static/css/main.57b354c3.chunk.css.map": "/Natours/static/css/main.57b354c3.chunk.css.map",
@@ -64,6 +64,6 @@
     "static/css/2.903f44f7.chunk.css",
     "static/js/2.7f2f5d2a.chunk.js",
     "static/css/main.57b354c3.chunk.css",
-    "static/js/main.a542a53e.chunk.js"
+    "static/js/main.f94b65e8.chunk.js"
   ]
 }
