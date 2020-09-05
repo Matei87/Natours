@@ -442,6 +442,13 @@ color: #55c57a;
     text-align: center;
 }
 
+#city-wonderer .row .col-md-12:nth-of-type(5) {
+    padding-bottom: 0;
+}
+
+#city-wonderer .row .col-md-12:nth-of-type(6) {
+    padding: 7rem 3rem 5rem;
+}
 #city-wonderer .row .col-md-12:nth-of-type(6) .cont {
     padding: 5rem 0rem 5rem 0rem;
     width: 85vw; margin: 0;

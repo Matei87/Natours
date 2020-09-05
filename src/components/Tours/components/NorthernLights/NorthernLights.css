@@ -441,7 +441,13 @@ color: #55c57a;
 #northern-lights .row .col-md-12:nth-of-type(2) .description-box h2 {
     text-align: center;
 }
+#northern-lights .row .col-md-12:nth-of-type(5) {
+    padding-bottom: 0;
+}
 
+#northern-lights .row .col-md-12:nth-of-type(6) {
+    padding: 7rem 3rem 5rem;
+}
 #northern-lights .row .col-md-12:nth-of-type(6) .cont {
     padding: 5rem 0rem 5rem 0rem;
     width: 85vw; margin: 0;
