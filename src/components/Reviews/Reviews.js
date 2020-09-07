@@ -18,14 +18,14 @@ const settings = {
         {
             breakpoint: 1200,
             settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1,
             }
         },
         {
             breakpoint: 992,
             settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1,
             }
         },
@@ -107,8 +107,7 @@ class Reviews extends React.Component {
                                     </span>
                                     <p>
                                         "We have used all-travel for over 15 years and have had the best experiences with everything.
-                                        We love using our agent alice gomez to smooth out all the kinks.
-                                        Thank you for your service!"
+                                        We love using our agent Jennifer Hardy to smooth out all the kinks."
                                 </p>
                                 </div>
 
