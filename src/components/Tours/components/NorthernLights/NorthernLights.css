@@ -183,11 +183,21 @@ margin-right: .5rem;
 
 #northern-lights .row .col-md-12:nth-of-type(5) .slick-prev {
     left: -3%; top: 50% !important;
+    height: inherit;
   }
   
   #northern-lights .row .col-md-12:nth-of-type(5) .slick-next {
     right: -3%; top: 50% !important;
+    height: inherit;
   }
+#northern-lights .row .col-md-12:nth-of-type(5) .slick-prev::before {
+    content: "❮" !important;
+    font-size: 2.5rem;
+}
+#northern-lights .row .col-md-12:nth-of-type(5) .slick-next::before  {
+    content: "❯" !important;
+    font-size: 2.5rem;
+}
   #northern-lights .row .col-md-12:nth-of-type(5) .card, #northern-lights .row .col-md-12:nth-of-type(5) .card-header,
   #northern-lights .row .col-md-12:nth-of-type(5) .card-body, #northern-lights .row .col-md-12:nth-of-type(5) .card-footer {
     border: none;
@@ -443,6 +453,12 @@ color: #55c57a;
 }
 #northern-lights .row .col-md-12:nth-of-type(5) {
     padding-bottom: 0;
+}
+#northern-lights .row .col-md-12:nth-of-type(5) .slick-prev {
+    left: -5%;
+}
+#northern-lights .row .col-md-12:nth-of-type(5) .slick-next {
+    right: -5%;
 }
 
 #northern-lights .row .col-md-12:nth-of-type(6) {

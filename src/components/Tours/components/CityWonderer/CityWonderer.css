@@ -183,11 +183,21 @@ margin-right: .5rem;
 
 #city-wonderer .row .col-md-12:nth-of-type(5) .slick-prev {
     left: -3%; top: 50% !important;
+    height: inherit;
   }
   
   #city-wonderer .row .col-md-12:nth-of-type(5) .slick-next {
     right: -3%; top: 50% !important;
+    height: inherit;
   }
+  #city-wonderer .row .col-md-12:nth-of-type(5) .slick-prev::before {
+    content: "❮" !important;
+    font-size: 2.5rem;
+}
+#city-wonderer .row .col-md-12:nth-of-type(5) .slick-next::before  {
+    content: "❯" !important;
+    font-size: 2.5rem;
+}
   #city-wonderer .row .col-md-12:nth-of-type(5) .card, #city-wonderer .row .col-md-12:nth-of-type(5) .card-header,
   #city-wonderer .row .col-md-12:nth-of-type(5) .card-body, #city-wonderer .row .col-md-12:nth-of-type(5) .card-footer {
     border: none;
@@ -445,6 +455,13 @@ color: #55c57a;
 #city-wonderer .row .col-md-12:nth-of-type(5) {
     padding-bottom: 0;
 }
+#city-wonderer .row .col-md-12:nth-of-type(5) .slick-prev {
+    left: -5%;
+}
+#city-wonderer .row .col-md-12:nth-of-type(5) .slick-next {
+    right: -5%;
+}
+
 
 #city-wonderer .row .col-md-12:nth-of-type(6) {
     padding: 7rem 3rem 5rem;
@@ -474,7 +491,7 @@ color: #55c57a;
 #city-wonderer .row .col-md-12:nth-of-type(6) .content > div p {
     font-size: .95rem;
 }
- }
+}
 
 
 

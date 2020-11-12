@@ -182,11 +182,21 @@ border-top-color: #55c57a;
 
 #park-camper .row .col-md-12:nth-of-type(5) .slick-prev {
     left: -3%; top: 50% !important;
+    height: inherit;
   }
   
   #park-camper .row .col-md-12:nth-of-type(5) .slick-next {
     right: -3%; top: 50% !important;
+    height: inherit;
   }
+#park-camper .row .col-md-12:nth-of-type(5) .slick-prev::before {
+    content: "❮" !important;
+    font-size: 2.5rem;
+}
+#park-camper .row .col-md-12:nth-of-type(5) .slick-next::before  {
+    content: "❯" !important;
+    font-size: 2.5rem;
+}
   #park-camper .row .col-md-12:nth-of-type(5) .card, #park-camper .row .col-md-12:nth-of-type(5) .card-header,
   #park-camper .row .col-md-12:nth-of-type(5) .card-body, #park-camper .row .col-md-12:nth-of-type(5) .card-footer {
     border: none;
@@ -442,6 +452,12 @@ color: #55c57a;
 }
 #park-camper .row .col-md-12:nth-of-type(5) {
     padding-bottom: 0;
+}
+#park-camper .row .col-md-12:nth-of-type(5) .slick-prev {
+    left: -5%;
+}
+#park-camper .row .col-md-12:nth-of-type(5) .slick-next {
+    right: -5%;
 }
 
 #park-camper .row .col-md-12:nth-of-type(6) {

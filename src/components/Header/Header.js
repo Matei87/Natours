@@ -16,7 +16,7 @@ class Header extends React.Component {
                                 We create the moments that inspire you, excite you, challenge you and that will stay with you for life
                             </h2>
                             <Link
-                                to="/tour"
+                                to="/tours"
                                 className="btn btn-outline-primary"
                             >
                                 View Tours
