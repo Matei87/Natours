@@ -2,7 +2,6 @@
     height: 100vh; width: 100%;
     background: #f7f7f7;  position: relative;
     display: flex !important; justify-content: center; align-items: center;
-    margin-top: 40px;
 }
 #homepage .container-fluid .row {
     display: grid;
@@ -58,6 +57,9 @@
 
 /* Small devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    #homepage {
+        margin-top: 20px;
+    }
     #homepage .container-fluid .row {
         grid-gap: .2rem;
     }
