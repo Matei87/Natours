@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 
 import Navbar from './components/Navbar/Navbar';
 import Tours from './components/Tours/Tours';
@@ -19,12 +18,11 @@ import Signup from './components/Signup/Signup';
 import Terms from './components/Terms/Terms';
 import Footer from './components/Footer/Footer';
 
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'jquery/dist/jquery.min.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-
-import 'bootstrap/dist/js/bootstrap.min.js';
 import 'animate.css/animate.min.css';
 import { WOW } from 'wowjs';
 
@@ -42,7 +40,7 @@ class App extends React.Component {
 
     return (
       <Router >
-        <>
+        <ScrollToTop>
           <Navbar />
           <Switch >
             <Route exact path="/" component={HomePage} />
@@ -77,7 +75,7 @@ class App extends React.Component {
 
           </Switch>
           <Footer />
-        </>
+        </ScrollToTop>
       </Router>
     );
   }

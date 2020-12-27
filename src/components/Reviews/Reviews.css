@@ -14,13 +14,14 @@
 }
 #reviews .container .row h3::before {
     content: '';
-    border-bottom: .4rem solid #444;
-    position: absolute; bottom: -20%; left: 50%; width: 50%;
-    transform: translate(-50%, 0); height: .05rem;
+    display: block;
+    background: #444;
+    position: absolute; bottom: -30%; left: 50%; width: 50%;
+    transform: translate(-50%, 0); height: .25rem;
 }
 #reviews .container .row .reviews {
     display: flex !important; justify-content: center; align-items: center;
-    width: 100%; height: 40rem;
+    width: 100%;
 }
 
 #reviews .slick-slider {
@@ -93,12 +94,13 @@
 
 
 /* Extra small devices */
-@media (max-width: 575.98px) { 
-    #reviews .container-fluid .row h3 {
-        font-size: 1.75rem;
+@media (max-width: 575.98px) {
+    #reviews {
+        padding: 3rem 0 5rem;
     }
-    #reviews .container-fluid .row .reviews {
-        width: 320px; padding: 0; 
+    #reviews .container .row h3 {
+        font-size: 1.75rem;
+        margin-bottom: 3.5rem;
     }
     #reviews .container .row .reviews .review {
        padding: 1rem; max-width: 19rem;
@@ -113,12 +115,16 @@
 
 /* Small devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    #reviews .container-fluid .row .reviews {
+    #reviews {
+        padding: 3rem 0 5rem;
+    }
+    #reviews .container .row h3 {
+        font-size: 2rem;
+        margin-bottom: 3.5rem;
+    }
+    #reviews .container .row .reviews {
         grid-template-columns: 1fr;
         padding: 0;
-    }
-    #reviews .container-fluid .row h3 {
-        font-size: 2rem; margin-bottom: 3.5rem;
     }
     #reviews .slick-prev {
         left: -2%;
@@ -129,8 +135,14 @@
  }
 
 /* Medium devices */
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    #reviews .container-fluid .row .reviews {
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #reviews {
+        padding: 3rem 0 5rem;
+    }
+    #reviews .container .row h3 {
+        font-size: 2rem;
+    }
+    #reviews .container .row .reviews {
         grid-template-columns: repeat(2, 1fr);
         width: 720px; padding: 0;
     }
@@ -140,8 +152,11 @@
  }
 
 /* Large devices */
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    #reviews .container-fluid .row .reviews {
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #reviews .container .row h3 {
+        font-size: 2rem;
+    }
+    #reviews .container .row .reviews {
         grid-template-columns: repeat(2, 1fr);
         width: 960px; padding: 0;
     }

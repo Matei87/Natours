@@ -31,6 +31,9 @@ a {
 a:hover {
   text-decoration: none !important;
 }
+.form-control {
+  border: none !important;
+}
 :root {
   --animate-delay: 0.2s !important;
 }

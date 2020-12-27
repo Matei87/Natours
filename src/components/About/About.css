@@ -14,9 +14,10 @@
 }
 #about .container-fluid .row h3::before {
     content: '';
-    border-bottom: .4rem solid #444;
-    position: absolute; bottom: -20%; left: 50%; width: 50%;
-    transform: translate(-50%, 0); height: .05rem;
+    display: block;
+    background: #444;
+    position: absolute; bottom: -30%; left: 50%; width: 50%;
+    transform: translate(-50%, 0); height: .25rem;
 }
 #about .about-features {
     box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
@@ -45,9 +46,13 @@
 
 
 /* Extra small devices */
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
+    #about {
+        padding: 3rem 0 5rem;
+    }
     #about .container-fluid .row h3 {
         font-size: 1.75rem;
+        margin-bottom: 3.5rem;
     }
     #about .about-features {
         width: 320px; padding: 0; 
@@ -57,7 +62,14 @@
  }
 
 /* Small devices */
-@media (min-width: 576px) and (max-width: 767.98px) { 
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #about {
+        padding: 3rem 0 5rem;
+    }
+    #about .container-fluid .row h3 {
+        font-size: 2rem;
+        margin-bottom: 3.5rem;
+    }
     #about .about-features {
         width: 500px; grid-template-columns: 1fr;
     }
@@ -67,20 +79,26 @@
     #about .about-features .features:nth-child(3) {
         justify-content: left;
     }
-    #about .container-fluid .row h3 {
-        font-size: 2rem; margin-bottom: 3.5rem;
-    }
  }
 
 /* Medium devices */
-@media (min-width: 768px) and (max-width: 991.98px) { 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #about {
+        padding: 3rem 0 5rem;
+    }
+    #about .container-fluid .row h3 {
+        font-size: 2rem;
+    }
     #about .about-features {
         width: 720px;
     }
  }
 
 /* Large devices */
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #about .container-fluid .row h3 {
+        font-size: 2rem;
+    }
     #about .about-features {
         width: 960px;
     }

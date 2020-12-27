@@ -15,7 +15,7 @@ class Tours extends React.Component {
 
                 <div className="row">
 
-                    <div className="col-sm-6 col-md-6 col-lg-4">
+                    <div className="col-sm-10 col-md-6 col-lg-4">
                         <div className="card">
 
                             <div className="card-header">
@@ -64,7 +64,7 @@ class Tours extends React.Component {
                         </div>
                     </div>
 
-                    <div className="col-sm-6  col-md-6 col-lg-4">
+                    <div className="col-sm-10  col-md-6 col-lg-4">
                         <div className="card">
 
                             <div className="card-header">
@@ -113,7 +113,7 @@ class Tours extends React.Component {
                         </div>
                     </div>
 
-                    <div className="col-sm-6  col-md-6 col-lg-4">
+                    <div className="col-sm-10  col-md-6 col-lg-4">
                         <div className="card">
 
                             <div className="card-header">
@@ -162,7 +162,7 @@ class Tours extends React.Component {
                         </div>
                     </div>
 
-                    <div className="col-sm-6  col-md-6 col-lg-4">
+                    <div className="col-sm-10  col-md-6 col-lg-4">
                         <div className="card">
 
                             <div className="card-header">
@@ -211,7 +211,7 @@ class Tours extends React.Component {
                         </div>
                     </div>
 
-                    <div className="col-sm-6  col-md-6 col-lg-4">
+                    <div className="col-sm-10  col-md-6 col-lg-4">
                         <div className="card">
 
                             <div className="card-header">
@@ -260,7 +260,7 @@ class Tours extends React.Component {
                         </div>
                     </div>
 
-                    <div className="col-sm-6  col-md-6 col-lg-4">
+                    <div className="col-sm-10  col-md-6 col-lg-4">
                         <div className="card">
 
                             <div className="card-header">
@@ -309,7 +309,7 @@ class Tours extends React.Component {
                         </div>
                     </div>
 
-                    <div className="col-sm-6  col-md-6 col-lg-4">
+                    <div className="col-sm-10  col-md-6 col-lg-4">
                         <div className="card">
 
                             <div className="card-header">
@@ -358,7 +358,7 @@ class Tours extends React.Component {
                         </div>
                     </div>
 
-                    <div className="col-sm-6  col-md-6 col-lg-4">
+                    <div className="col-sm-10  col-md-6 col-lg-4">
                         <div className="card">
 
                             <div className="card-header">
@@ -407,7 +407,7 @@ class Tours extends React.Component {
                         </div>
                     </div>
 
-                    <div className="col-sm-6  col-md-6 col-lg-4">
+                    <div className="col-sm-10  col-md-6 col-lg-4">
                         <div className="card">
 
                             <div className="card-header">

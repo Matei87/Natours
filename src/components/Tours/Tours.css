@@ -1,6 +1,7 @@
 #tours {
     display: flex; justify-content: center; align-items: center;
     flex-direction: column;
+    margin: calc(5rem  + 67.2px) auto 5rem;
 }
 
 #tours h3.title {
@@ -10,9 +11,101 @@
 }
 #tours h3.title::before {
     content: '';
-    border-bottom: .4rem solid #444;
-    position: absolute; bottom: -20%; left: 50%; width: 50%;
-    transform: translate(-50%, -50%); height: .05rem;
+    display: block;
+    background: #444;
+    position: absolute; bottom: -30%; left: 50%; width: 50%;
+    transform: translate(-50%, 0); height: .25rem;
+}
+
+#tours .row .col-lg-4 .card {
+    margin-bottom: 30px;
+}
+#tours .row .col-lg-4 .card {
+    background: white; border: none;
+    box-shadow: 0 1.2rem 3rem rgba(0, 0, 0, 0.1);
+    transition: all .25s ease;
+}
+#tours .row .col-lg-4 .card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 0 1rem 3rem 10px rgba(0, 0, 0, 0.4);
+}
+#tours .row .col-lg-4 .card .card-header {
+    position: relative; padding: 0; border: none;
+    background: transparent;
+}
+#tours .row .col-lg-4 .card .card-picture {
+    clip-path: polygon(0 0, 100% 0%, 100% 83%, 0% 98%);
+    height: 18rem;
+}
+#tours .row .col-lg-4 .card .card-picture .card-picture-overlay {
+    background: linear-gradient(to right bottom, #7dd56f, #28b487);
+    position: absolute; height: 100%; width: 100%; opacity: .7;
+}
+#tours .row .col-lg-4 .card .card-picture img {
+    object-fit: cover; object-position: center;
+    height: 100%; width: 100%;
+}
+#tours .row .col-lg-4 .card .card-header h3 {
+    text-transform: uppercase; color: white; font-weight: 300;
+    position: absolute; right: 1.5rem; bottom: .3rem; line-height: 1.7;
+    width: 75%; text-align: right; z-index: 10;
+}
+#tours .row .col-lg-4 .card .card-header h3 span {
+    padding: .7rem 1.5rem; box-decoration-break: clone;  
+    background: linear-gradient(to bottom right, rgba(125, 213, 111, 0.85), rgba(40, 180, 135, 0.85) );
+}
+
+#tours .row .col-lg-4 .card .card-body h4 {
+    text-transform: uppercase;   color: #777;
+    font-size: .75rem; font-weight: 700;
+}
+#tours .row .col-lg-4 .card .card-body p {
+    font-style: italic; font-weight: 300; font-size: .92rem;
+}
+#tours .row .col-lg-4 .card .card-body .card-body-data {
+    font-weight: 300; height: 5rem;
+    position: relative;
+}
+#tours .row .col-lg-4 .card .card-body .card-body-data .data:nth-of-type(1) {
+    position: absolute; left: 0;
+}
+#tours .row .col-lg-4 .card .card-body .card-body-data .data:nth-of-type(2) {
+    position: absolute; left: 12rem;
+}
+#tours .row .col-lg-4 .card .card-body .card-body-data .data:nth-of-type(3) {
+    position: absolute; left: 0; bottom: .5rem;
+}
+#tours .row .col-lg-4 .card .card-body .card-body-data .data:nth-of-type(4) {
+    position: absolute; left: 12rem; bottom: .5rem;
+}
+
+#tours .row .col-lg-4 .card .card-body .card-body-data .data span {
+    font-size: .8rem;
+}
+#tours .row .col-lg-4 .card .card-body .card-body-data .data i {
+    color: #55c57a; margin-right: .5rem;
+}
+
+#tours .row .col-lg-4 .card .card-footer {
+    background: #f1f1f1; border: 1px solid #f1f1f1;
+}
+#tours .row .col-lg-4 .card .card-footer {
+display: flex; justify-content: space-between; align-items: center;
+}
+#tours .row .col-lg-4 .card .card-footer .card-footer-details {
+    font-size: .85rem;
+}
+#tours .row .col-lg-4 .card .card-footer .card-footer-details .text {
+    font-weight: 300;
+}
+#tours .row .col-lg-4 .card .card-footer .card-footer-details .value {
+    font-weight: 700;
+}
+
+#tours .row .col-lg-4 .card .card-footer .btn-success {
+    border-radius: 0; text-transform: uppercase;
+    padding: .65rem 1.7rem;
 }
 
 
@@ -22,25 +115,92 @@
 
 /* Extra small devices */
 @media (max-width: 575.98px) {
+    #tours {
+        margin: calc(3rem + 67.2px) auto 5rem;
+    }
     #tours h3.title {
        font-size: 1.75rem;
-        
+       margin-bottom: 3.5rem;
+    }
+    #tours .row {
+        display: flex; justify-content: center; align-items: center;
+    }
+    #tours .row .col-lg-4 {
+        flex-basis: 90%;
+    }
+    #tours .row .col-lg-4 .card .card-header h3 {
+        right: 1.5rem; width: 90%; 
+    }
+    #tours .row .col-lg-4 .card .card-header h3 span {
+        padding: .7rem 1.5rem;
+    }
+    #tours .row .col-lg-4 .card .card-body .card-body-data .data:nth-of-type(2) {
+        left: 8rem;
+    }
+    #tours .row .col-lg-4 .card .card-body .card-body-data .data:nth-of-type(4) {
+        left: 8rem;
     }
 }
 
 /* Small devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
-
+    #tours {
+        margin: calc(3rem + 67.2px) auto 5rem;
+    }
+    #tours h3.title {
+        font-size: 2rem;
+        margin-bottom: 3.5rem;
+    }
+    #tours .row {
+        display: flex; justify-content: center; align-items: center;
+    }
+    #tours .row  .card-body {
+        padding: .85rem;
+    }
+    #tours .row .col-lg-4 .card .card-header h3 {
+        right: .9rem; width: 100%;
+    }
+    #tours .row .col-lg-4 .card .card-header h3 span {
+        padding: .7rem .9rem;
+    }
+    #tours .row .col-lg-4 .card .card-body .card-body-data .data i {
+        margin-right: .25rem;
+    }
+    #tours .row .col-lg-4 .card .card-body .card-body-data .data span {
+        font-size: .8rem;
+    }
+    #tours .row .col-lg-4 .card .card-body .card-body-data .data:nth-of-type(2) {
+        left: 6.4rem;
+    }
+    #tours .row .col-lg-4 .card .card-body .card-body-data .data:nth-of-type(4) {
+        left: 6.4rem;
+    }
 }
 
 /* Medium devices */
-@media (min-width: 768px) and (max-width: 991.98px) { 
-
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #tours {
+        margin: calc(3rem + 67.2px) auto 5rem;
+    }
+    #tours h3.title {
+        font-size: 2rem;
+    }
 }
 
 /* Large devices */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-
+    #tours h3.title {
+        font-size: 2rem;
+    }
+    #tours .row .col-lg-4 .card .card-header h3 {
+        width: 85%; 
+    }
+    #tours .row .col-lg-4 .card .card-body .card-body-data .data:nth-of-type(2) {
+        left: 8rem;
+    }
+    #tours .row .col-lg-4 .card .card-body .card-body-data .data:nth-of-type(4) {
+        left: 8rem;
+    }
  }
 
 /* Extra large devices */

@@ -28,7 +28,7 @@
 }
 #homepage .container-fluid .row .btn {
    background: #55c57a; border-color: #55c57a; color: #f7f7f7;
-   padding: 1rem 2rem; border-radius: 5rem; font-weight: 600;
+   padding: 1rem 2rem; border-radius: 0; font-weight: 600;
 }
 #homepage .container-fluid .row .btn:hover {
     background: #28b487; border-color: #28b487; color: #444;
@@ -65,7 +65,8 @@
         height: 6rem;
     }
     #homepage .container-fluid .row h1 {
-        font-size: 1.75rem; margin: .5rem 0;
+        font-size: 2rem;
+        margin: .5rem 0;
     }
     #homepage .container-fluid .row h2 {
         font-size: 1.1rem; width: 60%;

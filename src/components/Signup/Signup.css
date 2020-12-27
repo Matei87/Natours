@@ -2,49 +2,132 @@
     height: 100%; width: 100%;
     margin: calc(3rem + 67.2px) auto 3rem;
 }
-#signup .head {
-    border-bottom: 1px inset #7dd56f;
-    background: rgba(190, 190, 190, .35);
-}
-#signup .head p {
-    margin: 0; padding: 1rem 2rem;
-    color: #444; font-weight: 600; font-size: 1.5rem;
-}
-#signup form { 
-    border: 1px outset #7dd56f;
-    box-shadow: 0 0 5px 5px #7dd56f,
-    0 0 20px 20px rgba(0, 0, 0, .185);
-    background: #fff;
-}
-#signup form .form-group {
-    padding: 1rem 2rem; margin: 0;
-}
-#signup form .form-group label {
-    font-weight: 600;
-}
-#signup form .form-group input {
-    font-weight: 500; border-radius: 0;
-    padding: 1.75rem .75rem;
-    background: rgba(190, 190, 190, .35);
-}
-#signup form .form-group input::placeholder {
-    font-weight: 500; color: #7dd56f;
-}
-#signup form .form-group button {
-    background: rgba(190, 190, 190, .35);
-    border: 1px outset #7dd56f;
-    color: #7dd56f; font-weight: 600; border-radius: 0;
-    padding: .75rem; transition: .6s ease;
-}
-#signup form .form-group button:hover {
-    background: #7dd56f; color: #f1f1f1;
-    border: 1px inset #7dd56f;
-}
-#signup form .form-control:focus {
-    border-color: #28b487;
-    box-shadow: inset 0 1px 1px #28b487, 0 0 8px #55c57a;
-    background: #fff;
-}
-#signup .col-md-6 {
+#signup .container {
     margin: 0 auto;
+}
+#signup .container .row {
+    margin: 0;
+    display: flex; justify-content: center;
+    align-items: center; flex-direction: column;
+}
+
+#signup .container .row h3 {
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-bottom: 2rem; font-size: 2rem;
+    color: #444; font-weight: 600;
+    text-align: center; text-transform: uppercase;
+}
+#signup .container .row form {
+    box-shadow: 0 0 30px 20px rgba(0, 0, 0, .15);
+    padding: 5rem; background: #fff;
+}
+#signup .container .row form input,
+#signup .container .row form textarea {
+    border-radius: 0;
+}
+#signup .container .row form .form-group {
+    margin-bottom: 1rem;
+}
+#signup .container .row form label {
+    font-weight: 600; color: #000;
+    margin-bottom: 0;
+}
+#signup .container .row form .form-group input {
+    position: relative;
+    padding: 1.75rem .75rem;
+    font-weight: 600; font-size: 1.1rem;
+    color: #777; 
+    background: rgba(190, 190, 190, .7);
+    border-bottom: 2px solid transparent !important;
+}
+
+#signup .container .row form textarea {
+    font-weight: 600; font-size: 1.1rem;
+    color: #777;
+    background: rgba(190, 190, 190, .7);
+    border-bottom: 2px solid transparent !important;
+}
+#signup .container .row form input::placeholder, 
+#signup .container .row form textarea::placeholder {
+    color: #777; font-weight: 400;
+}
+#signup .container .row form .btn {
+    background: #28b487; border-color: #28b487;
+    text-transform: uppercase; font-weight: 600;
+    padding: .75rem; border-radius: 0;
+}
+#signup .container .row form .btn:hover {
+    background: #55c57a; color: #777;
+    border-color: #55c57a;
+}
+#signup .container .row form .form-control:focus {
+    border-bottom: 2px solid #55c57a !important;
+    box-shadow: none !important;
+    background: rgba(190, 190, 190, .45);
+}
+
+
+/* Extra small devices */
+@media (max-width: 575.98px) {
+    #signup {
+        padding: 3rem 0 5rem;
+    }
+    #signup .container .row h3 {
+        font-size: 1.75rem;
+        margin-bottom: 3.5rem;
+    }
+    #signup .container .row form {
+        padding: 4rem 2rem;
+    }
+    #signup .container .row form input::placeholder, 
+    #signup .container .row form textarea::placeholder {
+    font-size: 1rem;
+    }
+    
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #signup {
+        padding: 3rem 0 5rem;
+    }
+    #signup .container .row h3 {
+        font-size: 2rem;
+        margin-bottom: 3.5rem;
+    }
+    #signup .container .row form {
+        padding: 4rem 3rem;
+    }
+    #signup .container .row form input::placeholder,
+    #signup .container .row form input,
+    #signup .container .row form textarea::placeholder,
+    #signup .container .row form textarea {
+        font-size: 1rem;
+    }
+
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #signup {
+        padding: 3rem 0 5rem;
+    }
+    #signup .container .row h3 {
+        font-size: 2rem;
+    }
+
+}
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #signup .container .row h3 {
+        font-size: 2rem;
+    }
+
+}
+
+/* Extra large devices */
+@media (min-width: 1200px) { 
+    
 }
