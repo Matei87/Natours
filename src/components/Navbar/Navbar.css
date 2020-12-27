@@ -2,17 +2,30 @@
     outline: none !important;
 }
 #main-navigation {
-    padding: .5rem 5rem; background: #444;
+    padding: .5rem 5rem;
+    background: rgba(68, 68, 68, .75);
     display: flex !important; align-items: center; justify-content: center;
     position: fixed !important; top: 0; width: 100%;  z-index: 999;
 }
 #main-navigation .homepage {
     width: 146px; 
 }
-#main-navigation .homepage a {
- text-transform: uppercase; color: #f7f7f7;
+#main-navigation .navbar-toggler {
+    border: none !important;
+    /* border-color: #fff;
+    border-radius: 0; */
 }
-
+.navbar-toggler-icon {
+    color: #fff !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+#main-navigation .homepage a {
+ text-transform: uppercase;
+ color: #f7f7f7;
+}
+#main-navigation a {
+    color: #fff;
+}
 #main-navigation .logo-header img {
     height: 2.2rem; 
 }
@@ -59,7 +72,7 @@
 /* Extra small devices */
 @media (max-width: 575.98px) {
     #main-navigation {
-        padding: 1rem 2rem;
+        padding: .5rem 2rem;
     }
     #mynav {
         display: none;
@@ -79,7 +92,7 @@
     #main-navigation .log-sign {
         width: 180px; font-size: .95rem;
         display: flex; justify-content: center; align-items: center; 
-        position: absolute; right: 2rem; top: 1.22rem;
+        position: absolute; right: 2rem; top: .5rem;
     }
     #main-navigation .log-sign a {
         margin-right: 0;
@@ -97,7 +110,7 @@
  /* Small devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
     #main-navigation {
-        padding: 1rem 6rem;
+        padding: .5rem 6rem;
     }
     #mynav {
         display: none;
@@ -118,7 +131,7 @@
         transition: height .35s ease;
     }
     #main-navigation .log-sign {
-        position: absolute; right: 5.5rem; top: 1.45rem;
+        position: absolute; right: 5.5rem; top: 1rem;
     }
 }
 
@@ -126,7 +139,7 @@
 /* Medium devices  */
 @media (min-width: 768px) and (max-width: 991.98px) { 
     #main-navigation {
-        padding: 1rem 7.5rem;
+        padding: .5rem 7.5rem;
     }
     #mynav {
         display: none;
@@ -148,6 +161,6 @@
         transition: all 1s ease;
     }
     #main-navigation .log-sign {
-        position: absolute; right: 7rem; top: 1.45rem;
+        position: absolute; right: 7rem; top: 1rem;
     }
 }
