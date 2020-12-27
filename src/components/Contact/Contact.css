@@ -50,7 +50,7 @@
 
 #contact .container .row form textarea {
     font-weight: 600; font-size: 1.1rem;
-    color: #777;
+    color: #777; height: 10rem;
     background: rgba(190, 190, 190, .7);
     border-bottom: 2px solid transparent !important;
 }

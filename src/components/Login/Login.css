@@ -22,8 +22,7 @@
     box-shadow: 0 0 30px 20px rgba(0, 0, 0, .15);
     padding: 5rem; background: #fff;
 }
-#login .container .row form input,
-#login .container .row form textarea {
+#login .container .row form input {
     border-radius: 0;
 }
 #login .container .row form .form-group {
@@ -42,14 +41,7 @@
     border-bottom: 2px solid transparent !important;
 }
 
-#login .container .row form textarea {
-    font-weight: 600; font-size: 1.1rem;
-    color: #777;
-    background: rgba(190, 190, 190, .7);
-    border-bottom: 2px solid transparent !important;
-}
-#login .container .row form input::placeholder, 
-#login .container .row form textarea::placeholder {
+#login .container .row form input::placeholder {
     color: #777; font-weight: 400;
 }
 #login .container .row form .btn {
@@ -80,8 +72,7 @@
     #login .container .row form {
         padding: 4rem 2rem;
     }
-    #login .container .row form input::placeholder, 
-    #login .container .row form textarea::placeholder {
+    #login .container .row form input::placeholder {
     font-size: 1rem;
     }
     
@@ -100,9 +91,7 @@
         padding: 4rem 3rem;
     }
     #login .container .row form input::placeholder,
-    #login .container .row form input,
-    #login .container .row form textarea::placeholder,
-    #login .container .row form textarea {
+    #login .container .row form input {
         font-size: 1rem;
     }
 

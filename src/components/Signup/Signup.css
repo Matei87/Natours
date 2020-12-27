@@ -22,8 +22,7 @@
     box-shadow: 0 0 30px 20px rgba(0, 0, 0, .15);
     padding: 5rem; background: #fff;
 }
-#signup .container .row form input,
-#signup .container .row form textarea {
+#signup .container .row form input {
     border-radius: 0;
 }
 #signup .container .row form .form-group {
@@ -41,15 +40,7 @@
     background: rgba(190, 190, 190, .7);
     border-bottom: 2px solid transparent !important;
 }
-
-#signup .container .row form textarea {
-    font-weight: 600; font-size: 1.1rem;
-    color: #777;
-    background: rgba(190, 190, 190, .7);
-    border-bottom: 2px solid transparent !important;
-}
-#signup .container .row form input::placeholder, 
-#signup .container .row form textarea::placeholder {
+#signup .container .row form input::placeholder {
     color: #777; font-weight: 400;
 }
 #signup .container .row form .btn {
@@ -80,8 +71,7 @@
     #signup .container .row form {
         padding: 4rem 2rem;
     }
-    #signup .container .row form input::placeholder, 
-    #signup .container .row form textarea::placeholder {
+    #signup .container .row form input::placeholder {
     font-size: 1rem;
     }
     
@@ -100,9 +90,7 @@
         padding: 4rem 3rem;
     }
     #signup .container .row form input::placeholder,
-    #signup .container .row form input,
-    #signup .container .row form textarea::placeholder,
-    #signup .container .row form textarea {
+    #signup .container .row form input {
         font-size: 1rem;
     }
 
