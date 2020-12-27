@@ -10,7 +10,7 @@ class Signup extends React.Component {
                 <div className="container">
 
                     <div className="row">
-                        <div className="col-md-10 col-lg-7">
+                        <div className="col-sm-10 col-md-10 col-lg-7">
                             <form>
                                 <h3>Signup</h3>
 
