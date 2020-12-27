@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35f474e624ded83573310fc673e75e94",
+    "revision": "f6ce9c45359cf46905e993918f5c2ff1",
     "url": "/Natours/index.html"
   },
   {
-    "revision": "15c64235d405816d34a0",
-    "url": "/Natours/static/css/2.211dda6f.chunk.css"
+    "revision": "a5d820fa9fbbc59beed1",
+    "url": "/Natours/static/css/2.fc7412d0.chunk.css"
   },
   {
-    "revision": "e390da862cee139ea61e",
-    "url": "/Natours/static/css/main.e93b47f0.chunk.css"
+    "revision": "ce1ac6c998b13667e034",
+    "url": "/Natours/static/css/main.132b5b78.chunk.css"
   },
   {
-    "revision": "15c64235d405816d34a0",
-    "url": "/Natours/static/js/2.79994730.chunk.js"
+    "revision": "a5d820fa9fbbc59beed1",
+    "url": "/Natours/static/js/2.134fd8be.chunk.js"
   },
   {
-    "revision": "3411c2681b5eb08aa704bb1fce48e9a0",
-    "url": "/Natours/static/js/2.79994730.chunk.js.LICENSE.txt"
+    "revision": "82c115752d91c5cff9436cb8f9ff8ba4",
+    "url": "/Natours/static/js/2.134fd8be.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e390da862cee139ea61e",
-    "url": "/Natours/static/js/main.dad88c89.chunk.js"
+    "revision": "ce1ac6c998b13667e034",
+    "url": "/Natours/static/js/main.ad3a3aaa.chunk.js"
   },
   {
     "revision": "345eb89c01eb92e0dddc",

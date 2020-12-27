@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Natours/static/css/main.e93b47f0.chunk.css",
-    "main.js": "/Natours/static/js/main.dad88c89.chunk.js",
-    "main.js.map": "/Natours/static/js/main.dad88c89.chunk.js.map",
+    "main.css": "/Natours/static/css/main.132b5b78.chunk.css",
+    "main.js": "/Natours/static/js/main.ad3a3aaa.chunk.js",
+    "main.js.map": "/Natours/static/js/main.ad3a3aaa.chunk.js.map",
     "runtime-main.js": "/Natours/static/js/runtime-main.7c6a0ac6.js",
     "runtime-main.js.map": "/Natours/static/js/runtime-main.7c6a0ac6.js.map",
-    "static/css/2.211dda6f.chunk.css": "/Natours/static/css/2.211dda6f.chunk.css",
-    "static/js/2.79994730.chunk.js": "/Natours/static/js/2.79994730.chunk.js",
-    "static/js/2.79994730.chunk.js.map": "/Natours/static/js/2.79994730.chunk.js.map",
+    "static/css/2.fc7412d0.chunk.css": "/Natours/static/css/2.fc7412d0.chunk.css",
+    "static/js/2.134fd8be.chunk.js": "/Natours/static/js/2.134fd8be.chunk.js",
+    "static/js/2.134fd8be.chunk.js.map": "/Natours/static/js/2.134fd8be.chunk.js.map",
     "index.html": "/Natours/index.html",
-    "precache-manifest.cad0825263a73f8b158d9cbc3003a4f0.js": "/Natours/precache-manifest.cad0825263a73f8b158d9cbc3003a4f0.js",
+    "precache-manifest.329e35460825f44205f957faeae08db9.js": "/Natours/precache-manifest.329e35460825f44205f957faeae08db9.js",
     "service-worker.js": "/Natours/service-worker.js",
-    "static/css/2.211dda6f.chunk.css.map": "/Natours/static/css/2.211dda6f.chunk.css.map",
-    "static/css/main.e93b47f0.chunk.css.map": "/Natours/static/css/main.e93b47f0.chunk.css.map",
-    "static/js/2.79994730.chunk.js.LICENSE.txt": "/Natours/static/js/2.79994730.chunk.js.LICENSE.txt",
+    "static/css/2.fc7412d0.chunk.css.map": "/Natours/static/css/2.fc7412d0.chunk.css.map",
+    "static/css/main.132b5b78.chunk.css.map": "/Natours/static/css/main.132b5b78.chunk.css.map",
+    "static/js/2.134fd8be.chunk.js.LICENSE.txt": "/Natours/static/js/2.134fd8be.chunk.js.LICENSE.txt",
     "static/media/logo-green-small.png": "/Natours/static/media/logo-green-small.888043d5.png",
     "static/media/logo-white.png": "/Natours/static/media/logo-white.40d4ef82.png",
     "static/media/nat-5.jpg": "/Natours/static/media/nat-5.19f9a22f.jpg",
@@ -61,9 +61,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7c6a0ac6.js",
-    "static/css/2.211dda6f.chunk.css",
-    "static/js/2.79994730.chunk.js",
-    "static/css/main.e93b47f0.chunk.css",
-    "static/js/main.dad88c89.chunk.js"
+    "static/css/2.fc7412d0.chunk.css",
+    "static/js/2.134fd8be.chunk.js",
+    "static/css/main.132b5b78.chunk.css",
+    "static/js/main.ad3a3aaa.chunk.js"
   ]
 }
