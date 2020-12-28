@@ -67,7 +67,7 @@
     #signup .container .row form {
         box-shadow: none;
         background: transparent;
-        padding: 2rem;
+        padding: 4rem 2rem;
     }
     #signup .container .row form input::placeholder {
     font-size: 1rem;
