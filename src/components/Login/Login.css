@@ -17,7 +17,7 @@
 }
 #login .container .row form {
     box-shadow: 0 0 30px 20px rgba(0, 0, 0, .15);
-    padding: 5rem; background: #fff;
+    padding: 4rem; background: #fff;
 }
 #login .container .row form input {
     border-radius: 0;
@@ -31,7 +31,6 @@
 }
 #login .container .row form .form-group input {
     position: relative;
-    padding: 1.75rem .75rem;
     font-weight: 600; font-size: 1.1rem;
     color: #777; 
     background: rgba(190, 190, 190, .7);
@@ -60,14 +59,15 @@
 /* Extra small devices */
 @media (max-width: 575.98px) {
     #login {
-        margin: calc(2rem + 67.2px) auto 3rem;
+        margin: 3rem auto;
     }
     #login .container .row h3 {
         font-size: 1.75rem;
         margin-bottom: 2rem;
     }
     #login .container .row form {
-        padding: 3rem 2rem;
+        box-shadow: none;
+        background: transparent;
     }
     #login .container .row form input::placeholder {
         font-size: 1rem;
@@ -83,9 +83,6 @@
     #login .container .row h3 {
         font-size: 2rem;
         margin-bottom: 2rem;
-    }
-    #login .container .row form {
-        padding: 3rem 2rem;
     }
     #login .container .row form input::placeholder,
     #login .container .row form input {

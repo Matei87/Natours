@@ -11,7 +11,7 @@ class Login extends React.Component {
 
                     <div className="row">
 
-                        <div className="col-sm-10 col-md-10 col-lg-7">
+                        <div className="col-sm-10 col-md-8 col-lg-6 col-xl-5">
                             <form>
                                 <h3>Login</h3>
 

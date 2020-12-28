@@ -26,7 +26,7 @@
 }
 #contact .container .row form {
     box-shadow: 0 0 30px 20px rgba(0, 0, 0, .15);
-    padding: 5rem; background: #fff;
+    padding: 4rem; background: #fff;
 }
 #contact .container .row form input,
 #contact .container .row form textarea {
@@ -41,7 +41,7 @@
 }
 #contact .container .row form .form-group input {
     position: relative;
-    padding: 1.75rem .75rem;
+    /* padding: 1.75rem .75rem; */
     font-weight: 600; font-size: 1.1rem;
     color: #777; 
     background: rgba(190, 190, 190, .7);
@@ -101,9 +101,6 @@
     #contact .container .row h3 {
         font-size: 2rem;
         margin-bottom: 3.5rem;
-    }
-    #contact .container .row form {
-        padding: 3rem;
     }
     #contact .container .row form input::placeholder,
     #contact .container .row form input,
