@@ -55,7 +55,7 @@
         margin-bottom: 3.5rem;
     }
     #about .about-features {
-        width: 320px; padding: 0; 
+        width: 300px; padding: 0; 
         grid-template-columns: 1fr;
     }
     
@@ -71,7 +71,7 @@
         margin-bottom: 3.5rem;
     }
     #about .about-features {
-        width: 500px; grid-template-columns: 1fr;
+        width: 480px; grid-template-columns: 1fr;
     }
     #about .about-features .features:nth-child(2) {
         justify-content: left;

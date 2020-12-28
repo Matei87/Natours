@@ -2,9 +2,6 @@
     height: 100%; width: 100%;
     margin: calc(3rem + 67.2px) auto 3rem;
 }
-#login .container {
-    margin: 0 auto;
-}
 #login .container .row {
     margin: 0;
     display: flex; justify-content: center;

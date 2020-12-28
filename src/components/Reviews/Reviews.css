@@ -59,7 +59,7 @@
 
 
 #reviews .container .row .reviews .review {
-    border: 2px outset rgba(0, 0, 0, .1);
+    /* border: 2px outset rgba(0, 0, 0, .1); */
     background: #f1f1f1;
     max-width: 30rem; width: 100%; 
     position: relative; padding: 3rem;
@@ -103,7 +103,7 @@
         margin-bottom: 3.5rem;
     }
     #reviews .container .row .reviews .review {
-       padding: 1rem; max-width: 19rem;
+       padding: 1rem; max-width: 18.75rem;
     }
     #reviews .slick-prev {
         left: 0%;

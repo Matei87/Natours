@@ -2,9 +2,6 @@
     height: 100%; width: 100%;
     margin: calc(3rem + 67.2px) auto 3rem;
 }
-#signup .container {
-    margin: 0 auto;
-}
 #signup .container .row {
     margin: 0;
     display: flex; justify-content: center;
