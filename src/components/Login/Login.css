@@ -68,6 +68,7 @@
     #login .container .row form {
         box-shadow: none;
         background: transparent;
+        padding: 2rem;
     }
     #login .container .row form input::placeholder {
         font-size: 1rem;
