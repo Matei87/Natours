@@ -1,5 +1,5 @@
 #star-gazer {
-    position: relative; margin-top: 67.2px;
+    position: relative;
 }
 #star-gazer .row {  
     position: relative;
@@ -11,7 +11,7 @@
 
 
 #star-gazer .row .col-md-12:first-of-type {
-    height: 82vh; position: relative; z-index: 10;
+    height: 87vh; position: relative; z-index: 10;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0 100%);
 }
 #star-gazer .row .col-md-12:first-of-type .header {

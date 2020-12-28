@@ -1,5 +1,5 @@
 #city-wonderer {
-    position: relative; margin-top: 67.2px;
+    position: relative;
 }
 #city-wonderer .row {  
     position: relative;
@@ -11,7 +11,7 @@
 
 
 #city-wonderer .row .col-md-12:first-of-type {
-    height: 82vh; position: relative; z-index: 10;
+    height: 87vh; position: relative; z-index: 10;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0 100%);
 }
 #city-wonderer .row .col-md-12:first-of-type .header {
@@ -316,7 +316,7 @@ color: #55c57a;
 
 
 /* Extra small devices */
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
 #city-wonderer .row .col-md-12:first-of-type .box {
     width: 65%;
 }
@@ -432,7 +432,7 @@ color: #55c57a;
 
 
  /* Small devices */
-@media (min-width: 576px) and (max-width: 767.98px) { 
+@media (min-width: 576px) and (max-width: 767.98px) {
 #city-wonderer .row .col-md-12:first-of-type .box > h1 {
     font-size: 2rem; 
     width: 90%;
