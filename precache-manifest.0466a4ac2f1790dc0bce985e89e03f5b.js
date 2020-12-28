@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c788bac7832da7a134a391da3813c202",
+    "revision": "d1f54594264c675d95f83a43f7cea9ad",
     "url": "/Natours/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Natours/static/css/2.fc7412d0.chunk.css"
   },
   {
-    "revision": "73ae47503f8845df010f",
-    "url": "/Natours/static/css/main.fe2c0231.chunk.css"
+    "revision": "cc7a1059d3f2c0ce9f03",
+    "url": "/Natours/static/css/main.b95e84d7.chunk.css"
   },
   {
     "revision": "a5d820fa9fbbc59beed1",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Natours/static/js/2.134fd8be.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73ae47503f8845df010f",
+    "revision": "cc7a1059d3f2c0ce9f03",
     "url": "/Natours/static/js/main.0107672a.chunk.js"
   },
   {
