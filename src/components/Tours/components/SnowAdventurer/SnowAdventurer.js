@@ -49,13 +49,11 @@ const SnowAdventurer = () => {
 
   useEffect(() => {
     setViewport({
-      viewport: {
         longitude: -106.137434,
         latitude: 39.494596,
         width: '100%',
         height: '100vh',
         zoom: 10,
-      },
     });
   }, []);
 
@@ -170,7 +168,7 @@ const SnowAdventurer = () => {
               {...viewport}
               mapboxAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
               mapStyle='mapbox://styles/mapbox/streets-v11'
-              style={{width: '100vw', height: '100vh'}}
+              style={{width: '100%', height: '100vh'}}
             >
               {geojson.features.map((park) => (
                 <Marker

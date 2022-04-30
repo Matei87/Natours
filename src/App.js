@@ -26,9 +26,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'animate.css/animate.min.css';
 import { WOW } from 'wowjs';
 
-
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-
 
 class App extends React.Component {
   componentDidMount() {
@@ -39,43 +37,65 @@ class App extends React.Component {
     document.title = 'Natours | All Tours';
 
     return (
-      <Router >
-        <ScrollToTop>
-          <Navbar />
-          <Routes >
-            <Route exact path="/" element={<HomePage />} />
+      <Router>
+        <ScrollToTop />
+        <Navbar />
+        <Routes>
+          <Route exact path='/' element={<HomePage />} />
 
-            <Route exact path="/tours" element={<Tours />} />
+          <Route exact path='/tours' element={<Tours />} />
 
-            <Route exact path="/tours/the-sea-explorer" element={<SeaExplorer />} />
+          <Route
+            exact
+            path='/tours/the-sea-explorer'
+            element={<SeaExplorer />}
+          />
 
-            <Route exact path="/tours/the-mountain-biker" element={<MountainBiker />} />
+          <Route
+            exact
+            path='/tours/the-mountain-biker'
+            element={<MountainBiker />}
+          />
 
-            <Route exact path="/tours/the-snow-adventurer" element={<SnowAdventurer />} />
+          <Route
+            exact
+            path='/tours/the-snow-adventurer'
+            element={<SnowAdventurer />}
+          />
 
-            <Route exact path="/tours/the-park-camper" element={<ParkCamper />} />
+          <Route exact path='/tours/the-park-camper' element={<ParkCamper />} />
 
-            <Route exact path="/tours/the-city-wonderer" element={<CityWonderer />} />
+          <Route
+            exact
+            path='/tours/the-city-wonderer'
+            element={<CityWonderer />}
+          />
 
-            <Route exact path="/tours/the-star-gazer" element={<StarGazer />} />
+          <Route exact path='/tours/the-star-gazer' element={<StarGazer />} />
 
-            <Route exact path="/tours/the-wine-taster" element={<WineTaster />} />
+          <Route exact path='/tours/the-wine-taster' element={<WineTaster />} />
 
-            <Route exact path="/tours/the-northern-lights" element={<NorthernLights />} />
+          <Route
+            exact
+            path='/tours/the-northern-lights'
+            element={<NorthernLights />}
+          />
 
-            <Route exact path="/tours/the-forest-hiker" element={<ForestHiker />} />
+          <Route
+            exact
+            path='/tours/the-forest-hiker'
+            element={<ForestHiker />}
+          />
 
-            <Route exact path="/login" element={<Login />} />
+          <Route exact path='/login' element={<Login />} />
 
-            <Route exact path="/signup" element={<Signup />} />
+          <Route exact path='/signup' element={<Signup />} />
 
-            <Route exact path="/terms" element={<Terms />} />
+          <Route exact path='/terms' element={<Terms />} />
 
-            <Route element={<NotFound />} />
-
-          </Routes>
-          <Footer />
-        </ScrollToTop>
+          <Route element={<NotFound />} />
+        </Routes>
+        <Footer />
       </Router>
     );
   }
