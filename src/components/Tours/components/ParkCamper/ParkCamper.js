@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './ParkCamper.css';
 
-import ReactMapGL, { Marker, Popup } from 'react-map-gl';
+import Map, { Marker, Popup } from 'react-map-gl';
 import settings from '../shared/settings';
 import Slider from 'react-slick';
 
@@ -184,12 +184,11 @@ const ParkCamper = () => {
 
         <div className='col-md-12'>
           <div id='map'>
-            <ReactMapGL
+            <Map
               {...viewport}
-              mapboxApiAccessToken={
-                'pk.eyJ1Ijoiam9uYXNzY2htZWR0bWFubiIsImEiOiJjam54ZmM5N3gwNjAzM3dtZDNxYTVlMnd2In0.ytpI7V7w7cyT1Kq5rT9Z1A'
-              }
-              mapStyle='mapbox://styles/jonasschmedtmann/cjnxfn3zk7bj52rpegdltx58h'
+              mapboxAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
+              mapStyle='mapbox://styles/mapbox/streets-v11'
+              style={{width: '100vw', height: '100vh'}}
             >
               {geojson.features.map((park) => (
                 <Marker
@@ -208,7 +207,7 @@ const ParkCamper = () => {
                   </Popup>
                 </Marker>
               ))}
-            </ReactMapGL>
+            </Map>
           </div>
         </div>
 
