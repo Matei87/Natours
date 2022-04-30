@@ -27,7 +27,7 @@ import 'animate.css/animate.min.css';
 import { WOW } from 'wowjs';
 
 
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 class App extends React.Component {
@@ -42,38 +42,38 @@ class App extends React.Component {
       <Router >
         <ScrollToTop>
           <Navbar />
-          <Switch >
-            <Route exact path="/" component={HomePage} />
+          <Routes >
+            <Route exact path="/" element={<HomePage />} />
 
-            <Route exact path="/tours" component={Tours} />
+            <Route exact path="/tours" element={<Tours />} />
 
-            <Route exact path="/tours/the-sea-explorer" component={SeaExplorer} />
+            <Route exact path="/tours/the-sea-explorer" element={<SeaExplorer />} />
 
-            <Route exact path="/tours/the-mountain-biker" component={MountainBiker} />
+            <Route exact path="/tours/the-mountain-biker" element={<MountainBiker />} />
 
-            <Route exact path="/tours/the-snow-adventurer" component={SnowAdventurer} />
+            <Route exact path="/tours/the-snow-adventurer" element={<SnowAdventurer />} />
 
-            <Route exact path="/tours/the-park-camper" component={ParkCamper} />
+            <Route exact path="/tours/the-park-camper" element={<ParkCamper />} />
 
-            <Route exact path="/tours/the-city-wonderer" component={CityWonderer} />
+            <Route exact path="/tours/the-city-wonderer" element={<CityWonderer />} />
 
-            <Route exact path="/tours/the-star-gazer" component={StarGazer} />
+            <Route exact path="/tours/the-star-gazer" element={<StarGazer />} />
 
-            <Route exact path="/tours/the-wine-taster" component={WineTaster} />
+            <Route exact path="/tours/the-wine-taster" element={<WineTaster />} />
 
-            <Route exact path="/tours/the-northern-lights" component={NorthernLights} />
+            <Route exact path="/tours/the-northern-lights" element={<NorthernLights />} />
 
-            <Route exact path="/tours/the-forest-hiker" component={ForestHiker} />
+            <Route exact path="/tours/the-forest-hiker" element={<ForestHiker />} />
 
-            <Route exact path="/login" component={Login} />
+            <Route exact path="/login" element={<Login />} />
 
-            <Route exact path="/signup" component={Signup} />
+            <Route exact path="/signup" element={<Signup />} />
 
-            <Route exact path="/terms" component={Terms} />
+            <Route exact path="/terms" element={<Terms />} />
 
-            <Route component={NotFound} />
+            <Route element={<NotFound />} />
 
-          </Switch>
+          </Routes>
           <Footer />
         </ScrollToTop>
       </Router>

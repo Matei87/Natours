@@ -5,19 +5,17 @@ import About from '../About/About';
 import Reviews from '../Reviews/Reviews';
 import Contact from '../Contact/Contact';
 
+const HomePage = () => {
+  document.title = 'Natours';
 
-class HomePage extends React.Component {
-    render() {
-        document.title = "Natours";
-        return (
-            <>
-                <Header />
-                <About />
-                <Reviews />
-                <Contact />
-            </>
-        )
-    }
-}
+  return (
+    <>
+      <Header />
+      <About />
+      <Reviews />
+      <Contact />
+    </>
+  );
+};
 
 export default HomePage;

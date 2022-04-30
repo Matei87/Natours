@@ -1,114 +1,141 @@
 #homepage {
-    height: 100vh; width: 100%;
-    background: #f7f7f7;  position: relative;
-    display: flex !important; justify-content: center; align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: #f7f7f7;
+  position: relative;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
 }
 #homepage .container-fluid .row {
-    display: grid;
-    grid-auto-flow: row; grid-gap: .5rem;
-    align-items: center; justify-items: center; 
-    align-content: center; justify-content: center;
-    text-align: center; text-transform: uppercase;
-    overflow: hidden !important;
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 0.5rem;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden !important;
 }
 #homepage .container-fluid .row img {
-    height: 15rem; width: auto;
+  height: 15rem;
+  width: auto;
 }
 #homepage .container-fluid .row h1 {
-    background: linear-gradient(to right, #7dd56f, #28b487);
-    color: transparent; background-clip: text;
-    background-clip: text; margin: 2rem 0;
-    letter-spacing: 1.5px; font-size: 2.9rem; font-weight: 600;
+  background: linear-gradient(to right, #7dd56f, #28b487);
+  color: transparent;
+  background-clip: text;
+  background-clip: text;
+  margin: 2rem 0;
+  letter-spacing: 1.5px;
+  font-size: 2.9rem;
+  font-weight: 600;
 }
 #homepage .container-fluid .row h2 {
-    background: linear-gradient(to right, #7dd56f, #28b487);
-    margin: 0 0 2rem 0; width: 55%; font-size: 1.4rem;
-    color: transparent; background-clip: text;  font-weight: 500;
+  background: linear-gradient(to right, #7dd56f, #28b487);
+  margin: 0 0 2rem 0;
+  width: 55%;
+  font-size: 1.4rem;
+  color: transparent;
+  background-clip: text;
+  font-weight: 500;
 }
 #homepage .container-fluid .row .btn {
-   background: #55c57a; border-color: #55c57a; color: #f7f7f7;
-   padding: 1rem 2rem; border-radius: 0; font-weight: 600;
+  background: #55c57a;
+  border-color: #55c57a;
+  color: #f7f7f7;
+  padding: 1rem 2rem;
+  border-radius: 0;
+  font-weight: 600;
+  max-width: 165px;
 }
 #homepage .container-fluid .row .btn:hover {
-    background: #28b487; border-color: #28b487; color: #444;
+  background: #28b487;
+  border-color: #28b487;
+  color: #444;
 }
-
-
 
 /* Extra small devices */
 @media (max-width: 575.98px) {
-    #homepage .container-fluid .row {
-        margin: 0;
-    }
-    #homepage .container-fluid .row img {
-        height: 10rem;
-    }
-    #homepage .container-fluid .row h1 {
-        font-size: 1.75rem; margin: 1rem 0;
-    }
-    #homepage .container-fluid .row h2 {
-        font-size: 1rem; width: 90%; 
-        margin-bottom: 1rem;
-    }
-    #homepage .container-fluid .row .btn {
-        padding: .65rem 1rem;
-    }
- }
+  #homepage .container-fluid .row {
+    margin: 0;
+  }
+  #homepage .container-fluid .row img {
+    height: 10rem;
+  }
+  #homepage .container-fluid .row h1 {
+    font-size: 1.75rem;
+    margin: 1rem 0;
+  }
+  #homepage .container-fluid .row h2 {
+    font-size: 1rem;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+  #homepage .container-fluid .row .btn {
+    padding: 0.65rem 1rem;
+  }
+}
 
 /* Small devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    #homepage {
-        margin-top: 20px;
-    }
-    #homepage .container-fluid .row {
-        grid-gap: .2rem;
-    }
-    #homepage .container-fluid .row img {
-        height: 6rem;
-    }
-    #homepage .container-fluid .row h1 {
-        font-size: 2rem;
-        margin: .5rem 0;
-    }
-    #homepage .container-fluid .row h2 {
-        font-size: 1.1rem; width: 60%;
-        margin: 0 0 .5rem 0;
-    }
-    #homepage .container-fluid .row .btn {
-        padding: .5rem 1rem;
-    }
- }
+  #homepage {
+    margin-top: 20px;
+  }
+  #homepage .container-fluid .row {
+    grid-gap: 0.2rem;
+  }
+  #homepage .container-fluid .row img {
+    height: 6rem;
+  }
+  #homepage .container-fluid .row h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+  #homepage .container-fluid .row h2 {
+    font-size: 1.1rem;
+    width: 60%;
+    margin: 0 0 0.5rem 0;
+  }
+  #homepage .container-fluid .row .btn {
+    padding: 0.5rem 1rem;
+  }
+}
 
 /* Medium devices */
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    #homepage .container-fluid .row img {
-        height: 10rem;
-    }
-    #homepage .container-fluid .row h1 {
-        font-size: 1.8rem;
-    }
-    #homepage .container-fluid .row h2 {
-        font-size: 1.1rem; width: 60%; 
-    }
-    #homepage .container-fluid .row .btn {
-        padding: .8rem 1.3rem;
-    }
- }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #homepage .container-fluid .row img {
+    height: 10rem;
+  }
+  #homepage .container-fluid .row h1 {
+    font-size: 1.8rem;
+  }
+  #homepage .container-fluid .row h2 {
+    font-size: 1.1rem;
+    width: 60%;
+  }
+  #homepage .container-fluid .row .btn {
+    padding: 0.8rem 1.3rem;
+  }
+}
 
 /* Large devices */
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    #homepage .container-fluid .row img {
-        height: 12rem;
-    }
-    #homepage .container-fluid .row h1 {
-        font-size: 2.4rem;
-    }
-    #homepage .container-fluid .row h2 {
-        font-size: 1.2rem; width: 60%; font-size: 1.3rem;
-    }
- }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #homepage .container-fluid .row img {
+    height: 12rem;
+  }
+  #homepage .container-fluid .row h1 {
+    font-size: 2.4rem;
+  }
+  #homepage .container-fluid .row h2 {
+    font-size: 1.2rem;
+    width: 60%;
+    font-size: 1.3rem;
+  }
+}
 
 /* Extra large devices */
-@media (min-width: 1200px) { 
-    
- }
+@media (min-width: 1200px) {
+}

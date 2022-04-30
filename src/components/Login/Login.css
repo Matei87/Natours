@@ -1,114 +1,123 @@
 #login {
-    height: 100%; width: 100%;
-    margin: calc(3rem + 67.2px) auto 3rem;
+  height: 100%;
+  width: 100%;
+  margin: calc(3rem + 67.2px) auto 3rem;
 }
 #login .container .row {
-    margin: 0;
-    display: flex; justify-content: center;
-    align-items: center; flex-direction: column;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #login .container .row h3 {
-    text-align: center;
-    letter-spacing: 1.5px;
-    margin-bottom: 2rem; font-size: 2rem;
-    color: #444; font-weight: 600;
-    text-align: center; text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.5px;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #444;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
 }
 #login .container .row form {
-    box-shadow: 0 0 30px 20px rgba(0, 0, 0, .15);
-    padding: 4rem; background: #fff;
+  box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.15);
+  padding: 4rem;
+  background: #fff;
 }
 #login .container .row form input {
-    border-radius: 0;
+  border-radius: 0;
 }
 #login .container .row form .form-group {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 #login .container .row form label {
-    font-weight: 600; color: #000;
-    margin-bottom: 0;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0;
 }
 #login .container .row form .form-group input {
-    position: relative;
-    font-weight: 600; font-size: 1.1rem;
-    color: #777; 
-    background: rgba(190, 190, 190, .7);
-    border-bottom: 2px solid transparent !important;
+  position: relative;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #777;
+  background: rgba(190, 190, 190, 0.7);
+  border-bottom: 2px solid transparent !important;
 }
 
 #login .container .row form input::placeholder {
-    color: #777; font-weight: 400;
+  color: #777;
+  font-weight: 400;
 }
 #login .container .row form .btn {
-    background: #28b487; border-color: #28b487;
-    text-transform: uppercase; font-weight: 600;
-    padding: .75rem; border-radius: 0;
+  background: #28b487;
+  border-color: #28b487;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.75rem;
+  border-radius: 0;
+  width: 100%;
 }
 #login .container .row form .btn:hover {
-    background: #55c57a; color: #777;
-    border-color: #55c57a;
+  background: #55c57a;
+  color: #777;
+  border-color: #55c57a;
 }
 #login .container .row form .form-control:focus {
-    border-bottom: 2px solid #55c57a !important;
-    box-shadow: none !important;
-    background: rgba(190, 190, 190, .45);
+  border-bottom: 2px solid #55c57a !important;
+  box-shadow: none !important;
+  background: rgba(190, 190, 190, 0.45);
 }
-
 
 /* Extra small devices */
 @media (max-width: 575.98px) {
-    #login {
-        margin: 3rem auto;
-    }
-    #login .container .row h3 {
-        font-size: 1.75rem;
-        margin-bottom: 2rem;
-    }
-    #login .container .row form {
-        box-shadow: none;
-        background: transparent;
-        padding: 4rem 2rem;
-    }
-    #login .container .row form input::placeholder {
-        font-size: 1rem;
-    }
-    
+  #login {
+    margin: 3rem auto;
+  }
+  #login .container .row h3 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  #login .container .row form {
+    box-shadow: none;
+    background: transparent;
+    padding: 4rem 2rem;
+  }
+  #login .container .row form input::placeholder {
+    font-size: 1rem;
+  }
 }
 
 /* Small devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    #login {
-        margin: calc(2rem + 67.2px) auto 3rem;
-    }
-    #login .container .row h3 {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-    #login .container .row form input::placeholder,
-    #login .container .row form input {
-        font-size: 1rem;
-    }
-
+  #login {
+    margin: calc(2rem + 67.2px) auto 3rem;
+  }
+  #login .container .row h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  #login .container .row form input::placeholder,
+  #login .container .row form input {
+    font-size: 1rem;
+  }
 }
 
 /* Medium devices */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    #login .container .row h3 {
-        font-size: 2rem;
-    }
-
+  #login .container .row h3 {
+    font-size: 2rem;
+  }
 }
 
 /* Large devices */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    #login .container .row h3 {
-        font-size: 2rem;
-    }
-
+  #login .container .row h3 {
+    font-size: 2rem;
+  }
 }
 
 /* Extra large devices */
-@media (min-width: 1200px) { 
-    
+@media (min-width: 1200px) {
 }
